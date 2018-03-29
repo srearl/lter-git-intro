@@ -1,0 +1,62 @@
+---
+title: "collaboration"
+subtitle: false
+author: false
+date: "2018-03-30"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+# an increasingly collaborative world 
+
+.center[![teams](figures/wutchty_teams.jpg)]
+
+
+---
+# tools
+
+![tools](figures/tools.png)
+
+.footnote[<hr>we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science
+]
+
+
+---
+# utility of GitHub
+
+![github](figures/github_utility.png)
+
+.footnote[<hr>we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science
+]
+
+
+---
+# collaboration tools
+
+.center[
+    <img src="figures/dropbox.png" style="width:30%">
+    <img src="figures/onedrive.png" style="width:28%">
+    <img src="figures/googledrive.jpg" style="width:28%">
+]
+
+
+---
+# collaboration with GitHub
+
+.center[![github](figures/git-collaboration.png)]
+
+
+---
+# real-world example: cross-site soil organic matter synthesis
+
+.center[<img src="figures/soil-organic-matter.png" width="90%">]
