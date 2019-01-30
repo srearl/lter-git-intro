@@ -1,0 +1,28 @@
+.light-grey {
+  color: #C8C8C8;
+}
+.light-blue {
+  color: #71A3C3;
+}
+.small {
+  font-size: 85%
+}
+.less-left {
+  float: left;
+  width: 30%;
+}
+.more-right {
+  float: right;
+  width: 65%;
+}
+code.r{
+  font-size: 14px;
+}
+.title-slide h1 {
+  text-align: left;
+  font-size: 40px;
+}
+.title-slide h3:nth-of-type(1) {
+  text-align: left;
+  font-size: 30px;
+}
