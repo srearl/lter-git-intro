@@ -20,12 +20,31 @@ options(htmltools.dir.version = FALSE)
 
 #### an increasingly collaborative world 
 
-.center[![teams](assets/figures/wutchty_teams.jpg)]
+.center[
+  <img src="assets/figures/wutchty_teams.jpg" width="80%"></img>
+]
+
+.footnote[Wuchty et al. 2007 [The Increasing Dominance of Teams in Production of Knowledge](http://science.sciencemag.org/content/316/5827/1036)]
 
 
 ---
 
-#### tools
+#### collaboration tools
+
+<br>
+<br>
+<br>
+
+.center[
+  <img src="assets/figures/dropbox.png" style="width:30%">
+  <img src="assets/figures/onedrive.png" style="width:28%">
+  <img src="assets/figures/googledrive.jpg" style="width:28%">
+]
+
+
+---
+
+#### tools for reproducible research and collaboration
 
 ![tools](assets/figures/tools.png)
 
@@ -43,24 +62,56 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
-#### collaboration tools
+#### version control with Git and GitHub
 
 .center[
-    <img src="assets/figures/dropbox.png" style="width:30%">
-    <img src="assets/figures/onedrive.png" style="width:28%">
-    <img src="assets/figures/googledrive.jpg" style="width:28%">
+  <img src="assets/figures/GitHubCollaboration - solo.png" width="35%"></img>
+]
+
+---
+
+#### collaboration with GitHub - shared repository
+
+a shared repository or team environment makes collaborating with GitHub very easy
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - team.png" width="60%"></img>
 ]
 
 
 ---
 
-#### collaboration with GitHub
+#### collaboration with GitHub - forking
 
-.center[![github](assets/figures/git-collaboration.png)]
+.center[
+  <img src="assets/figures/GitHubCollaboration - fork.png" width="75%"></img>
+]
+
+
+---
+
+#### collaboration with GitHub - forking
+
+forking is a invaluable tool but in itself does not facilitate complete synchronization
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - push-to-fork.png" width="70%"></img>
+]
+
+
+---
+
+#### collaboration with GitHub - pull request
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - pull-request.png" width="75%"></img>
+]
 
 
 ---
 
 #### real-world example: cross-site soil organic matter synthesis
 
-.center[<img src="assets/figures/soil-organic-matter.png" width="90%">]
+.center[
+  <img src="assets/figures/soil-organic-matter.png" width="90%">
+]
