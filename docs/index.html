@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>collaboration</title>
+    <title>index.utf8</title>
     <meta charset="utf-8" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/my-theme.css" type="text/css" />
@@ -9,124 +9,216 @@
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# collaboration
-### spring 2020
-
----
 
 
 
 
-
-#### an increasingly collaborative world 
+class: inverse
 
 .center[
-  &lt;img src="assets/figures/wutchty_teams.jpg" width="80%"&gt;&lt;/img&gt;
+  &lt;img src="assets/figures/final.png" width="60%"&gt;
 ]
 
-.footnote[Wuchty et al. 2007 [The Increasing Dominance of Teams in Production of Knowledge](http://science.sciencemag.org/content/316/5827/1036)]
+???
+
+#### final document
 
 
 ---
 
-#### collaboration tools
+&lt;br&gt;
+
+**what it is.small[.light-blue[&lt;sup&gt;1&lt;/sup&gt;]]:**
+
+  * an open source, distributed version control system designed for speed and efficiency
+
+&lt;br&gt;
+
+**what it does.small[.light-blue[&lt;sup&gt;2&lt;/sup&gt;]]:**
+
+  * watches repositories (like a directory) for changes
+  
+  * asks that you describe changes when they are made
+  
+  * identifies conflicts, and forces you to resolve them
+
+
+.footnote[
+  .light-blue[&lt;sup&gt;1&lt;/sup&gt;][Scott Chacon](https://speakerdeck.com/schacon/introduction-to-git?slide=13)&lt;br&gt;
+  .light-blue[&lt;sup&gt;2&lt;/sup&gt;][Jeff Goldsmith](https://speakerdeck.com/jeffgoldsmith/dsi-git-and-github)
+]
+
+???
+
+#### what is it?
+
+
+---
+class: middle, center
+
+&lt;img src="assets/figures/gitnotgithub.png" style="width:85%"&gt;
+
+???
+
+#### git != github
+
+
+---
+class: middle, center
+
+&lt;img src="assets/figures/GitHubCollaboration - GitInTheCloud.png" style="width:70%"&gt;
+
+
+???
+
+#### github one of many
+
+
+---
+#### git organization
+
+* the repository (think directory) is the fundamental organizational unit
+
+.center[
+  &lt;img src="assets/figures/GitHubCollaboration - repository.png" width="50%"&gt;&lt;/img&gt;
+]
+
+
+---
+
+#### GitHub organization
+
+* repositories can be .gunmetal[**public**] (public, controlled write access) or .bean-red[**private**]
+
+* repository owner can provide write access to other accounts
+
+* **organizations** can link many accounts
+  + accounts within organizations can be organized into **teams** for additional organization and access control
+
+.center[
+  &lt;img src="assets/figures/GitHubCollaboration - organization.png" width="90%"&gt;&lt;/img&gt;
+]
+
+
+---
+
+#### synchronization and collaboration with GitHub
+
+.pull-left[
+  &lt;img src="assets/figures/GitHubCollaboration - team.png" width="100%"&gt;&lt;/img&gt;
+]
+
+.pull-right[
+&lt;br&gt;
+  &lt;img src="assets/figures/GitHubCollaboration - pull-request.png" width="100%"&gt;&lt;/img&gt;
+]
+
+
+---
+
+#### on stability ...
+
+&lt;br&gt;
+
+.center[
+  &lt;img src="assets/figures/GitHubCollaboration - stability.png" width="100%"&gt;&lt;/img&gt;
+]
+
+
+---
+class: inverse, center, middle
+
+&lt;img src="assets/figures/bokis_on_git.png" width="80%"&gt;
+
+???
+#### vicky on git
+
+
+---
+class: center, middle
+
+&lt;img src="assets/figures/GitHubCollaboration - gitusespace.png" width="90%"&gt;
+
+
+---
+class: inverse
+
+#### CAP LTER
+
+.less-left[
+* manage code
+  + applications
+  + packages
+
+* project management
+  + long-term monitoring programs
+
+* documentation:
+  + informatics
+  + protocols
+]
+
+.more-right[
+  &lt;img src="assets/figures/caporg.png" width="100%"&gt;
+]
+
+
+---
+class: inverse
+
+#### SoDaH: soil synthesis working group
+
+relative to the CAP LTER, far more emphases on communication
+
+.less-left[
+* manage code
+  + applications
+  + packages
+
+* project management
+  + issues
+
+* communication
+  + issues
+  + website
+]
+
+.more-right[
+  &lt;br&gt;
+  &lt;img src="assets/figures/sodah.png" width="100%"&gt;
+]
+
+
+---
+
+#### teaching
+
+&lt;br&gt;
+
+.center[
+  &lt;img src="assets/figures/GitHubCollaboration - teachingwithgit.png" width="100%"&gt;
+]
+
+
+---
+
+#### tools
+
+.center[
+  &lt;img src="assets/figures/GitHubCollaboration - tools.png" width="90%"&gt;
+]
+
+
+---
+background-image: url(assets/figures/challenge.jpeg)
+background-size: cover
+class: bottom, center
+
+## .gunmetal[by a country mile, getting others on board !]
 
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-
-.center[
-  &lt;img src="assets/figures/dropbox.png" style="width:30%"&gt;
-  &lt;img src="assets/figures/onedrive.png" style="width:28%"&gt;
-  &lt;img src="assets/figures/googledrive.jpg" style="width:28%"&gt;
-]
-
-
----
-
-#### tools for reproducible research and collaboration
-
-![tools](assets/figures/tools.png)
-
-.footnote[&lt;hr&gt;we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science]
-
-
----
-
-#### utility of GitHub
-
-![github](assets/figures/github_utility.png)
-
-.footnote[&lt;hr&gt;we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science]
-
-
----
-
-#### version control with Git and GitHub
-
-.center[
-  &lt;img src="assets/figures/GitHubCollaboration - solo.png" width="35%"&gt;&lt;/img&gt;
-]
-
----
-
-#### collaboration with GitHub - shared repository
-
-a shared repository or team environment makes collaborating with GitHub very easy
-
-.center[
-  &lt;img src="assets/figures/GitHubCollaboration - team.png" width="60%"&gt;&lt;/img&gt;
-]
-
-
----
-#### recall Alice?
-
-&lt;br&gt;
-
-.center[
-  &lt;img src="assets/figures/git_for_humans.png" width="100%"&gt;&lt;/img&gt;
-]
-
-
----
-
-#### collaboration with GitHub - forking
-
-.center[
-  &lt;img src="assets/figures/GitHubCollaboration - fork.png" width="75%"&gt;&lt;/img&gt;
-]
-
-
----
-
-#### collaboration with GitHub - forking
-
-forking is invaluable but in itself does not facilitate complete synchronization
-
-.center[
-  &lt;img src="assets/figures/GitHubCollaboration - push-to-fork.png" width="70%"&gt;&lt;/img&gt;
-]
-
-
----
-
-#### collaboration with GitHub - pull request
-
-.center[
-  &lt;img src="assets/figures/GitHubCollaboration - pull-request.png" width="75%"&gt;&lt;/img&gt;
-]
-
-
----
-
-#### real-world example: cross-site soil organic matter synthesis
-
-.center[
-  &lt;img src="assets/figures/soil-organic-matter.png" width="90%"&gt;
-]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

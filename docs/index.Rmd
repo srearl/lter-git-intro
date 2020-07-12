@@ -1,8 +1,8 @@
 ---
-title: "collaboration"
+title: false
 subtitle: false
 author: false
-date: "spring 2020"
+date: "July 2020"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -17,111 +17,209 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-
-#### an increasingly collaborative world 
+class: inverse
 
 .center[
-  <img src="assets/figures/wutchty_teams.jpg" width="80%"></img>
+  <img src="assets/figures/final.png" width="60%">
 ]
 
-.footnote[Wuchty et al. 2007 [The Increasing Dominance of Teams in Production of Knowledge](http://science.sciencemag.org/content/316/5827/1036)]
+???
+
+#### final document
 
 
 ---
 
-#### collaboration tools
+<br>
+
+**what it is.small[.light-blue[<sup>1</sup>]]:**
+
+  * an open source, distributed version control system designed for speed and efficiency
+
+<br>
+
+**what it does.small[.light-blue[<sup>2</sup>]]:**
+
+  * watches repositories (like a directory) for changes
+  
+  * asks that you describe changes when they are made
+  
+  * identifies conflicts, and forces you to resolve them
+
+
+.footnote[
+  .light-blue[<sup>1</sup>][Scott Chacon](https://speakerdeck.com/schacon/introduction-to-git?slide=13)<br>
+  .light-blue[<sup>2</sup>][Jeff Goldsmith](https://speakerdeck.com/jeffgoldsmith/dsi-git-and-github)
+]
+
+???
+
+#### what is it?
+
+
+---
+class: middle, center
+
+<img src="assets/figures/gitnotgithub.png" style="width:85%">
+
+???
+
+#### git != github
+
+
+---
+class: middle, center
+
+<img src="assets/figures/GitHubCollaboration - GitInTheCloud.png" style="width:70%">
+
+
+???
+
+#### github one of many
+
+
+---
+#### git organization
+
+* the repository (think directory) is the fundamental organizational unit
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - repository.png" width="50%"></img>
+]
+
+
+---
+
+#### GitHub organization
+
+* repositories can be .gunmetal[**public**] (public, controlled write access) or .bean-red[**private**]
+
+* repository owner can provide write access to other accounts
+
+* **organizations** can link many accounts
+  + accounts within organizations can be organized into **teams** for additional organization and access control
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - organization.png" width="90%"></img>
+]
+
+
+---
+
+#### synchronization and collaboration with GitHub
+
+.pull-left[
+  <img src="assets/figures/GitHubCollaboration - team.png" width="100%"></img>
+]
+
+.pull-right[
+<br>
+  <img src="assets/figures/GitHubCollaboration - pull-request.png" width="100%"></img>
+]
+
+
+---
+
+#### on stability ...
+
+<br>
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - stability.png" width="100%"></img>
+]
+
+
+---
+class: inverse, center, middle
+
+<img src="assets/figures/bokis_on_git.png" width="80%">
+
+???
+#### vicky on git
+
+
+---
+class: center, middle
+
+<img src="assets/figures/GitHubCollaboration - gitusespace.png" width="90%">
+
+
+---
+class: inverse
+
+#### CAP LTER
+
+.less-left[
+* manage code
+  + applications
+  + packages
+
+* project management
+  + long-term monitoring programs
+
+* documentation:
+  + informatics
+  + protocols
+]
+
+.more-right[
+  <img src="assets/figures/caporg.png" width="100%">
+]
+
+
+---
+class: inverse
+
+#### SoDaH: soil synthesis working group
+
+relative to the CAP LTER, far more emphases on communication
+
+.less-left[
+* manage code
+  + applications
+  + packages
+
+* project management
+  + issues
+
+* communication
+  + issues
+  + website
+]
+
+.more-right[
+  <br>
+  <img src="assets/figures/sodah.png" width="100%">
+]
+
+
+---
+
+#### teaching
+
+<br>
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - teachingwithgit.png" width="100%">
+]
+
+
+---
+
+#### tools
+
+.center[
+  <img src="assets/figures/GitHubCollaboration - tools.png" width="90%">
+]
+
+
+---
+background-image: url(assets/figures/challenge.jpeg)
+background-size: cover
+class: bottom, center
+
+## .gunmetal[by a country mile, getting others on board !]
 
 <br>
 <br>
 <br>
-
-.center[
-  <img src="assets/figures/dropbox.png" style="width:30%">
-  <img src="assets/figures/onedrive.png" style="width:28%">
-  <img src="assets/figures/googledrive.jpg" style="width:28%">
-]
-
-
----
-
-#### tools for reproducible research and collaboration
-
-![tools](assets/figures/tools.png)
-
-.footnote[<hr>we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science]
-
-
----
-
-#### utility of GitHub
-
-![github](assets/figures/github_utility.png)
-
-.footnote[<hr>we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science]
-
-
----
-
-#### version control with Git and GitHub
-
-.center[
-  <img src="assets/figures/GitHubCollaboration - solo.png" width="35%"></img>
-]
-
----
-
-#### collaboration with GitHub - shared repository
-
-a shared repository or team environment makes collaborating with GitHub very easy
-
-.center[
-  <img src="assets/figures/GitHubCollaboration - team.png" width="60%"></img>
-]
-
-
----
-#### recall Alice?
-
-<br>
-
-.center[
-  <img src="assets/figures/git_for_humans.png" width="100%"></img>
-]
-
-
----
-
-#### collaboration with GitHub - forking
-
-.center[
-  <img src="assets/figures/GitHubCollaboration - fork.png" width="75%"></img>
-]
-
-
----
-
-#### collaboration with GitHub - forking
-
-forking is invaluable but in itself does not facilitate complete synchronization
-
-.center[
-  <img src="assets/figures/GitHubCollaboration - push-to-fork.png" width="70%"></img>
-]
-
-
----
-
-#### collaboration with GitHub - pull request
-
-.center[
-  <img src="assets/figures/GitHubCollaboration - pull-request.png" width="75%"></img>
-]
-
-
----
-
-#### real-world example: cross-site soil organic matter synthesis
-
-.center[
-  <img src="assets/figures/soil-organic-matter.png" width="90%">
-]
