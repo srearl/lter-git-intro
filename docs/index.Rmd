@@ -1,5 +1,5 @@
 ---
-title: false
+title: git intro and workflow
 subtitle: false
 author: false
 date: "July 2020"
@@ -106,7 +106,7 @@ class: middle, center
 
 ---
 
-#### synchronization and collaboration with GitHub
+#### synchronization, collaboration, and communication with GitHub
 
 .pull-left[
   <img src="assets/figures/GitHubCollaboration - team.png" width="100%"></img>
