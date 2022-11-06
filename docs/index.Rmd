@@ -34,7 +34,7 @@ class: inverse
 
 **what it is.small[.light-blue[<sup>1</sup>]]:**
 
-  * an open source, distributed version control system designed for speed and efficiency
+  * an open-source, distributed version control system designed for speed and efficiency
 
 <br>
 
